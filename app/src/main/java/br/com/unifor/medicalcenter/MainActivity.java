@@ -20,25 +20,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ((Button) findViewById(R.id.button_logar)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MenuprincipalActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    //botao button_logar
-    public void button_logar(View View) {
 
-        setContentView(R.layout.activity_menuprincipal);
-
-    }
-
-    //botao button_cadastro
-    public void button_cadastro(View View) {
-
-        setContentView(R.layout.activity_cadastro);
-
-    }
-
-    //botao button_voltar
-    public void button_voltar (View View){
-
-        setContentView(R.layout.activity_main);
-    }
 }
