@@ -7,6 +7,23 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/button_trocarplantao"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="261dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="346dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:elevation="12dp"
+        android:text="Trocar Plantão"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <Button
         android:id="@+id/button_voltar"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="127dp"
@@ -26,7 +43,7 @@
         app:layout_constraintVertical_bias="0.156" />
 
     <Button
-        android:id="@+id/button_oferecerplantoes"
+        android:id="@+id/button_cederplantoes"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="261dp"
         android:layout_height="63dp"
@@ -35,7 +52,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="12dp"
         android:elevation="12dp"
-        android:text="Oferecer Plantões"
+        android:text="Ceder Plantão"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -43,7 +60,24 @@
         app:layout_constraintVertical_bias="0.156" />
 
     <Button
-        android:id="@+id/button_Valores"
+        android:id="@+id/button_Financeiro"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="261dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="197dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:elevation="12dp"
+        android:text="Financeiro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <Button
+        android:id="@+id/button_calendario"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="261dp"
         android:layout_height="63dp"
@@ -52,24 +86,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="12dp"
         android:elevation="12dp"
-        android:text="Valores"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.156" />
-
-    <Button
-        android:id="@+id/button_minhaagenda"
-        style="@android:style/Widget.Holo.Button"
-        android:layout_width="261dp"
-        android:layout_height="63dp"
-        android:layout_marginBottom="345dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="12dp"
-        android:elevation="12dp"
-        android:text="Minha Agenda"
+        android:text="Calendário"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
